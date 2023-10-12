@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content__slider="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="e-commerce.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fuild">
+        <div class="first-section">
+            <img class="first-sectionimg" src="./e-commerce images/images/header.png">
+            <div class="nav-bar">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="e-commerce-logo" src="./e-commerce images/images/logo.svg">
+                        <span>E-commerce</span>
+                    </div>
+                    <div class="col-6 nav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="#men">Men</a></li>
+                            <li><a href="#women">Women</a></li>
+                            <li><a href="#aboutus">About US</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class=" cart_logos">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>wishlist</span>
+                            <button type="button" class="btn text-white" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                                <!-- <i class="fa-solid fa-cart-shopping" id="cart-icon"><a href="cart.html"></a></i> -->
+                                <a href="cart.html">
+                                    <i class="fas fa-cart-shopping"></i>
+                                </a>
+
+                            </button>
+
+                            <span><a href="cart.html">Add to cart</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content">
+                <p class="fs-2 text-white">Welcome To Our Online Shopping Website</p>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit
+                    pariatur
+                    soluta veritatis, quia dolorum beatae eligendi iure, fugit optio laborum doloremque eos suscipit
+                    repellendus excepturi dolore officia, architecto aperiam.</p>
+
+            </div>
+            <div class="playstore-logo">
+                <img class="apple" src="./e-commerce images/images/appstore.png">
+                <img class="andriod" src="./e-commerce images/images/playstore.png">
+            </div>
+        </div>
+    </div>
+    <div class="container-fuild">
+        <div class="top-brands">
+            <p class="text-center fs-4 ">TOP BREANDS</p>
+            <div class="container">
+                <div class="row ps-5">
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/adidas-logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/bata-logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/brand-nike.svg">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/puma-logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/zara-logo.svg">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="topbrands-logo">
+                            <img src="./e-commerce images/images/dior-logo.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="thrid_Section"> -->
+            <div class="col-8 px-5 py-5">
+                <input type="text" id="search" placeholder=" search">
+            </div>
+            <div class="col-3 px-5 py-5 ">
+                <button type="button" id="search_button">SEARCH</button>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <a id="men"></a>
+    <div class="mainBody">
+        <h3 class="text-center pt-2">MEN,s</h1>
+
+            <div class="container-fuild">
+                <div class="men_slider">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img class="product-img" src="./e-commerce images/images/man1.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="1"
+                                            data-name="printed tshirt Round neck" data-price=80
+                                            data-image="./e-commerce images/images/man1.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man1.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="2"
+                                            data-name="printed tshirt Round neck" data-price=80
+                                            data-image="./e-commerce images/images/man1.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man3.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="3"
+                                            data-name="printed tshirt Round neck" data-price=120
+                                            data-image="./e-commerce images/images/man3.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man2.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="4"
+                                            data-name="printed tshirt Round neck" data-price=120
+                                            data-image="./e-commerce images/images/man2.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man4.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men black tshirt</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="5"
+                                            data-name="printed tshirt Round neck" data-price=240
+                                            data-image="./e-commerce images/images/man4.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man4.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="6"
+                                            data-name="printed tshirt Round neck" data-price=420
+                                            data-image="./e-commerce images/images/man4.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man3.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="7"
+                                            data-name="printed tshirt Round neck" data-price=120
+                                            data-image="./e-commerce images/images/man3.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="men-image">
+                                    <img src="./e-commerce images/images/man5.png">
+                                    <div class="content__slider">
+                                        <p class="fs-5">Men printed tshirt Round neck</p>
+                                        <p>MRP:$50</p>
+                                        <p>Free delivery</p>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Add to cart</span>
+                                        <button class="btn text-white add-to-cart-button" data-id="8"
+                                            data-name="printed tshirt Round neck" data-price=520
+                                            data-image="./e-commerce images/images/man5.png">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <a id="women"></a>
+    <div class="mainBOdywomen">
+        <p class="fs-3 fb-3 text-center text-white">WOMEN's</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman1.png">
+                        <div class="women-content">
+                            <p class="fs-5">Kurti regular sleeve white color</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="9"
+                                data-name="Kurti regular sleeve white color" data-price=230
+                                data-image="./e-commerce images/images/woman1.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman1.png">
+                        <div class="women-content">
+                            <p class="fs-5">Kurti regular sleeve white blue</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="10"
+                                data-name="Kurti regular sleeve white blue" data-price=120
+                                data-image="./e-commerce images/images/woman1.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman1.png">
+                        <div class="women-content">
+                            <p class="fs-5">Kurti regular sleeve white red</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="11"
+                                data-name="Kurti regular sleeve white red" data-price=260
+                                data-image="./e-commerce images/images/woman1.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman3.png">
+                        <div class="women-content">
+                            <p class="fs-5">casual regular ballon sleeve</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="12"
+                                data-name="casual regular ballon sleeve" data-price=540
+                                data-image="./e-commerce images/images/woman3.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman4.png">
+                        <div class="women-content">
+                            <p class="fs-5">women high weist blue jeans</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="13"
+                                data-name="women high weist blue jeans" data-price=999
+                                data-image="./e-commerce images/images/woman4.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman3.png">
+                        <div class="women-content">
+                            <p class="fs-5">casual regular ballon sleeve</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="14"
+                                data-name="casual regular ballon sleeve" data-price=340
+                                data-image="./e-commerce images/images/woman3.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman4.png">
+                        <div class="women-content">
+                            <p class="fs-5">women high weist blue jeans</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="15"
+                                data-name="women high weistblue jeans" data-price=340
+                                data-image="./e-commerce images/images/woman4.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman5.png">
+                        <div class="women-content">
+                            <p class="fs-5"> Women skiny-fit blue jeans </p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="16"
+                                data-name="women skiny-fit blue jeans" data-price=999
+                                data-image="./e-commerce images/images/woman5.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="women-img">
+                        <img src="./e-commerce images/images/woman2.png">
+                        <div class="women-content">
+                            <p class="fs-5"> Women casual blue top</p>
+                            <p>MRP:$50</p>
+                            <p>Free delivery</p>
+                        </div>
+                        <div class="add_to_cart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Add to cart</span>
+                            <button class="btn text-white add-to-cart-button" data-id="17"
+                                data-name="women casual blue top" data-price=340
+                                data-image="./e-commerce images/images/woman2.png">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="kids-section">
+            <p class="text-center fs-3 pt-2"> KIDS SECTION</p>
+            <div class="row px-5">
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="/e-commerce images/images/kid7.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="/e-commerce images/images/kid8.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="./e-commerce images/images/kid1.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="./e-commerce images/images/kid2.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="./e-commerce images/images/kid3.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="./e-commerce images/images/kid4.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="./e-commerce images/images/kid5.png">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="kid-img">
+                        <img src="/e-commerce images/images/kid6.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a id="aboutus"></a>
+    <div class="container-fuild">
+        <div class="About_us">
+            <p class="text-white fs-3 ">ABOUT US</p>
+            <p class="text-white px-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                dolores, sed laudantium molestiae,
+                ut sequi perferendis sit dolore porro aut sunt et totam repellendus atque deleniti tempora nihil
+                quia doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut omnis sapiente quod debitis
+                quasi, placeat expedita voluptate, aut, molestiae earum sunt. Libero reprehenderit corrupti laboriosam,
+                quam odio necessitatibus? Nostrum, nesciunt.</p>
+            <p class="text-white px-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                dolores, sed laudantium molestiae,
+                ut sequi perferendis sit dolore porro aut sunt et totam repellendus atque deleniti tempora nihil
+                quia doloribus!</p>
+            <p class="text-white px-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                dolores, sed laudantium molestiae,
+                ut sequi perferendis sit dolore porro aut sunt et totam repellendus atque deleniti tempora nihil
+                quia doloribus!</p>
+            <p class="text-white px-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                dolores, sed laudantium molestiae,
+                ut sequi perferendis sit dolore porro aut sunt et totam repellendus atque deleniti tempora nihil
+                quia doloribus!</p>
+
+        </div>
+    </div>
+    <a id="contactus"></a>
+    <div class="container-fuild">
+        <div class="last-section">
+            <img src="./e-commerce images/bg-contact.jpg">
+
+            <div class="form">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="contact_us_box">
+                            <div id="form">
+                                <p>CONTACT US</p>
+                                <div class="input_class">
+                                    <input id="full-name" type="text" placeholder="Full name">
+                                </div>
+                                <div class="input_class">
+                                    <input id="email" type="email" placeholder="Email">
+                                </div>
+                                <div class="input_class_msg">
+
+                                    <textarea class="form2" id="message" type="text" placeholder=" Type a message"
+                                        style="height:5rem;" data-sb-validations="required">
+                    </textarea>
+
+                                </div>
+                                <div class="input_class1">
+                                    <input id="terms" type="checkbox" value="terms">
+                                    <label for="terms">I accept the Term of service</label>
+                                </div>
+                                <input id="submit_button" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="information_footer">
+                            <p class="text-center text-white fs-4">Call US</p>
+                            <p class="text-center text-white fs-5">+123456789</p>
+                            <p class="text-center text-white fs-4">Location</p>
+                            <p class="text-center text-white fs-5">c-204, Ground floor, industrial area,sector 74,
+                                sahibjada Ajit singh Nagar,Punjab,160055
+                            </p>
+                            <p class="text-center text-white fs-4">Social Media</p>
+                            <div class="contact_logo d-flex text-white text-center">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script src="./e-commerce.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content__slider="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        html,
+    
+        body {
+            position: relative;
+            height: 100%;
+          
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(166,206,207,255);
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+
+        p {
+            color: #000;
+        }
+
+        .men-image {
+            position: relative;
+            background-color: #eee;
+        }
+
+        .men-image img {
+            height: 50%;
+        }
+
+        .content__slider {
+            position: absolute;
+            color: black;
+            bottom: 0px;
+            /* left: 10px; */
+            background-color: #eee;
+            width: 100%;
+            top: 68%;
+            padding: 10px;
+
+        }
+
+        .add_to_cart {
+            background-color: #094030;
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            bottom: 0px;
+            padding-left: 150px;
+            color: white;
+            font-size: 17px;
+
+        }
+
+
+        .add_to_cart i {
+            /* color: #eee; */
+            position: absolute;
+            left: 12px;
+            top: 4px;
+        }
+
+        .fa-cart-shopping {
+            margin-left: 230px;
+        }
+
+
+        p {
+            margin-top: 0;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man1.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man2.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+a
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man3.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man2.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man4.png">
+                    <div class="content__slider">
+                        <p>Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man4.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man3.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="men-image">
+                    <img src="./e-commerce images/images/man5.png">
+                    <div class="content__slider">
+                        <p class="fs-5">Men printed tshirt Round neck</p>
+                        <p>MRP:$50</p>
+                        <p>Free delivery</p>
+                    </div>
+                    <div class="add_to_cart">
+                        <i class="fa-solid fa-heart"></i>
+
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
